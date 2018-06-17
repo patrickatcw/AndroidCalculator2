@@ -2,6 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 27
+
+    //step 1 add these, data binding for refering to widgets
+    dataBinding.enabled = true
+
     defaultConfig {
         applicationId "com.app.me.androidcalculator2"
         minSdkVersion 15
